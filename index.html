@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessNumber</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="topmain">
+            <div class="score">
+                <div id="score" class="currentscore">Score: 0</div>
+            </div>
+            <div id="timer">
+                <div class="currenttimer">60 sec</div>
+            </div>
+        </div>
+        <div class="main">
+            <div id="about">1...10</div>
+            <div id="label"></div>
+            <input type="number" id="numbers" onsubmit="currentNumber()">
+        </div>
+    </div>
+    <audio src="beepboop.mp3" autoplay="autoplay"></audio>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

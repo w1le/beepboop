@@ -1,0 +1,45 @@
+body {
+    background: rgb(65, 242, 255);
+    font-family: 'Roboto';
+    color: rgb(0, 0, 0);
+    font-size: 33px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    vertical-align: middle;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+#numbers {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    background-color: rgb(65, 242, 255);
+    font-size: 35px;
+    color: white;
+}
+
+#label {
+    color: red;
+}
+
+.topmain {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    height: 20vh;
+}
